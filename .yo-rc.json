@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "jorivaalv",
+    "baseName": "ComponenteReportes",
+    "packageName": "com.macroproyectos.reportes",
+    "serverPort": 99777,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "oracle",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.7.0",
+    "packageFolder": "com/macroproyectos/reportes",
+    "jwtSecretKey": "13896a2955c485bec9561f3ea744e67d2e307329",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
